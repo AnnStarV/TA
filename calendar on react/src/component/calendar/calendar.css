@@ -1,0 +1,506 @@
+.events {
+  background-color: #0b3157;
+  height: 80px;
+}
+.events img {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  margin-top: 42px;
+  margin-left: 320px;
+  transition: 0.2s;
+}
+
+.addEvents {
+  width: 375px;
+  height: 812px;
+  position: absolute;
+  z-index: 4;
+  background: #e8e9eb;
+}
+span.new_ev {
+  position: absolute;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 16px;
+  top: 44px;
+  left: 60px;
+  font-weight: 700;
+  letter-spacing: -0.34px;
+  width: 256px;
+  text-align: center;
+}
+.back_ev img {
+  cursor: pointer;
+  position: absolute;
+  left: 15px;
+  top: 44px;
+  width: 22px;
+  height: 22px;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.back_ev img:hover {
+  opacity: 1;
+}
+.save_ev img {
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 44px;
+  width: 25px;
+  height: 22px;
+  opacity: 0.1;
+  transition: 0.2s;
+}
+.save_ev img:hover {
+  opacity: 1;
+}
+.time_ev {
+  height: 71px;
+}
+.time_ev p {
+  cursor: default;
+  display: absolute;
+  color: #0b3157;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  opacity: 0.5;
+  width: 103px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+.fields {
+  position: absolute;
+  top: 100px;
+}
+.time_ev input {
+  cursor: pointer;
+  position: absolute;
+  left: 290px;
+  top: 173px;
+  line-height: 32px;
+  color: #0b3157;
+  font-size: 16px;
+  font-weight: 500;
+  width: 80px;
+  background: none;
+  outline: none;
+  border: none !important;
+  transition: 0.2s;
+}
+.time_ev hr {
+  margin-top: 20px;
+}
+input:hover {
+  opacity: 0.8;
+}
+
+.name_ev {
+  margin-left: 16px;
+  height: 71px;
+}
+.name_ev p {
+  cursor: default;
+  display: absoolute;
+  color: #0b3157;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  opacity: 0.5;
+  width: 103px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.body_ev {
+  margin-left: 16px;
+  height: 71px;
+}
+
+.body_ev p {
+  cursor: default;
+  display: absoolute;
+  color: #0b3157;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  opacity: 0.5;
+  width: 100%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+input {
+  cursor: pointer;
+  position: absolute;
+  line-height: 32px;
+  color: #0b3157;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  font-size: 16px;
+  background: none;
+  outline: none;
+  border: none !important;
+  font-family: Montserrat;
+  letter-spacing: -0.44px;
+  line-height: 19px;
+  opacity: 0.2000000029802322;
+  width: 343px;
+  text-align: left;
+  transition: 0.2s;
+}
+input:focus {
+  opacity: 1;
+  color: #0b3157;
+}
+
+.header_ev {
+  position: absolute;
+  background-color: #0b3157;
+  width: 100%;
+  height: 96px;
+}
+
+img.OpenClose {
+  position: absolute;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+img.OpenClose:hover {
+  opacity: 1;
+}
+
+.events img:hover {
+  width: 35px;
+  height: 35px;
+}
+
+hr {
+  position: absolute;
+  background-color: #d1d6dc;
+  left: 0;
+  right: 0;
+  width: 375px;
+  margin-top: 30px;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#week-month {
+  position: absolute;
+  text-align: center;
+  width: 375px;
+  height: 44px;
+  z-index: 3;
+  background-color: #0b3157;
+  padding-top: 8px;
+}
+.freeday {
+  color: red;
+}
+
+#button a {
+  margin-right: 5px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid #e8e9eb;
+  border-radius: 30px;
+  text-transform: none;
+  opacity: 0.4;
+  padding: 3px 10px;
+}
+#button a:hover {
+  opacity: 1;
+}
+
+a.button_1 {
+  margin-right: 6px;
+  margin-left: 5px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #efefef;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.calendar {
+  display: block;
+  background: #ffffff;
+  width: 375px;
+  height: 812px;
+  border: solid 1px #cccccc;
+  margin: 10px auto;
+  box-shadow: 0 0 15px 0 #c0c0c0;
+  font-size: 1.3rem;
+  overflow: hidden;
+}
+
+.header {
+  font-family: "Montserrat";
+  font-weight: 800;
+  color: #ffffff;
+  cursor: default;
+  font-size: 16px;
+  display: block;
+  text-transform: uppercase;
+  user-select: none;
+}
+.month-display {
+  cursor: default;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background: #0b3157;
+}
+
+.month-label {
+  text-align: center;
+}
+
+.arrow {
+  width: 40px;
+  margin-left: 5px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #48c1c2;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: left;
+}
+.arrow:hover {
+  color: #ffffff;
+}
+
+.arrow_1 {
+  width: 40px;
+  margin-right: 5px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #48c1c2;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+  text-align: right;
+}
+.arrow_1:hover {
+  color: #ffffff;
+}
+
+.week {
+  height: 40px;
+  font-family: "Montserrat";
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0b3157;
+}
+.week:first-child {
+  border-top: none;
+}
+
+.day-names .day {
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 11px;
+  cursor: default;
+  background-color: #0b3157;
+  height: 20px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+.day-names .day:hover {
+  background-color: #0b3157;
+}
+.day .day-names {
+  cursor: default;
+}
+
+.day {
+  margin-left: 5px;
+  margin-right: 5px;
+  line-height: 40px;
+  flex: 1;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+.day:hover {
+  background-color: rgba(233, 222, 222, 0.342);
+  border: none;
+}
+
+.first-child {
+  border-left: none;
+}
+
+span.today {
+  position: relative;
+}
+
+span.today::before {
+  border-radius: 50%;
+  content: attr(value);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  top: 4px;
+  right: 19px;
+  background: red;
+}
+.different-week {
+  color: grey;
+}
+.today.day.freeday {
+  color: red;
+}
+
+.selected.day.freeday {
+  color: red;
+}
+
+.different-month {
+  color: #ffffff;
+}
+
+.different-month.day:hover {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.selected {
+  border-radius: 10%;
+  background: #0b3157;
+  color: #ffffff;
+  transition: 0.2s;
+}
+.selected:hover {
+  border: none;
+  background-color: rgba(233, 222, 222, 0.342);
+  color: #0b3157;
+}
+
+span.selected_now {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  color: #0b3157;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: default;
+  height: 40px;
+}
+#div {
+  width: 100%;
+  text-align: left;
+  padding-top: 24px;
+  margin-left: 16px;
+}
+
+.day-events {
+  text-transform: uppercase;
+  width: 343px;
+  color: #0b3157;
+  opacity: 0.3;
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 14px;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 16px;
+  height: 30px;
+}
+
+.body-event {
+  position: absolute;
+  left: 24px;
+  top: 28px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  text-transform: none;
+  line-height: 19px;
+  width: 260px;
+  text-align: left;
+}
+.name-event {
+  position: absolute;
+  top: 12px;
+  left: 24px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  line-height: 17px;
+  opacity: 0.5;
+  width: 260px;
+  text-align: left;
+}
+.time-event {
+  position: absolute;
+  right: 24px;
+  bottom: 32px;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  line-height: 17px;
+  opacity: 0.5;
+  width: 171px;
+  text-align: right;
+}
+.box-events {
+  border-radius: 4px;
+  position: relative;
+  line-height: 40px;
+  margin: 0px 8px;
+  margin-bottom: 4px;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 12px;
+  background-color: #45b4b7;
+}
+.event-day {
+  border-bottom: 2px solid #45b4b7;
+  border-width:3px; 
+}
+.event-day:hover{
+  border-bottom: 2px solid #45b4b7;
+  border-width:3px; 
+}
